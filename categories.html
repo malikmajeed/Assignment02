@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <title>Book Categories</title>
+    <link rel="stylesheet" href="categories.css">
+    <style>
+        /* Add space around the navbar brand */
+        .navbar-brand {
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+    </style>
+    <style>
+         .category-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .category-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .category-card:hover {
+            transform: scale(1.05);
+        }
+
+        .book-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .book-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .book-card:hover {
+            transform: scale(1.05);
+        }
+    </style>
+     <!-- Include All CSS -->
+     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+     <link rel="stylesheet" type="text/css" href="css/animate.css"/>
+     <link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+     <link rel="stylesheet" type="text/css" href="css/strok_gap_icon.css"/>
+     <link rel="stylesheet" type="text/css" href="css/settings.css"/>
+     <link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
+     <link rel="stylesheet" type="text/css" href="css/preset.css"/>
+     <link rel="stylesheet" type="text/css" href="css/style.css"/>
+     <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+     <!-- End Include All CSS -->
+
+     <!-- Favicon Icon -->
+     <link rel="icon"  type="image/png" href="images/favicon.png">
+     <!-- Favicon Icon -->
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="la-ball-scale-multiple la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    
+    <header class="header3" style="position: static; align-items: center;">
+        <!-- <div class="logo3">
+            <a href="#"><img src="images/_90732e97-49c4-408b-9098-2673c302250a.png" style="height: 100px; margin-right: 30px;" alt=""/></a>
+        </div> -->
+        <div class="navMenu3 poppins">
+            <div class="mobileMenu3"> 
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul style="padding-left: 200px; ">
+                <li class="has-menu-items"><a href="index.html">Home</a>
+                 
+                </li>
+                <li class="has-menu-items"><a href="categories.html">Shop</a>
+                    
+                </li>
+                <li class="has-menu-items"><a href="cart.html">Cart</a>
+                    
+                </li>
+            
+                   
+                <li><a href="contact_us.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="shopMenus poppins">
+            <ul class="shopsMenu">
+                <li><a href="#"><i class="icon-Search"></i></a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+
+
+
+
+
+    <aside>
+    <!-- Add this inside the filters section -->
+    <section class="filters">
+        <label for="category">Filter by Category:</label>
+        <select id="category">
+            <!-- Populate categories dynamically using JavaScript -->
+        </select>
+    </section>
+</aside>
+
+    <section class="book-list">
+        <!-- Book details will be dynamically added here -->
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+        <!-- Include All JS -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/mixer.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="js/jquery.plugin.min.js"></script>
+        <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/theme.js"></script>
+</body>
+
+</html>
